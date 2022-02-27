@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-27T14:51:35 SGT" name="Default suite" finished-at="2022-02-27T14:51:40 SGT" duration-ms="5774">
+    <groups>
+    </groups>
+    <test started-at="2022-02-27T14:51:35 SGT" name="Default test" finished-at="2022-02-27T14:51:40 SGT" duration-ms="5774">
+      <class name="LoginSevletTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:LoginSevletTest@708f5957]" started-at="2022-02-27T14:51:35 SGT" name="beforeTest" finished-at="2022-02-27T14:51:36 SGT" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testLoginWithCorrectCredentials()[pri:0, instance:LoginSevletTest@708f5957]" started-at="2022-02-27T14:51:36 SGT" name="testLoginWithCorrectCredentials" finished-at="2022-02-27T14:51:39 SGT" duration-ms="3214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithCorrectCredentials -->
+        <test-method signature="testLoginWithWrongEmail()[pri:0, instance:LoginSevletTest@708f5957]" started-at="2022-02-27T14:51:39 SGT" name="testLoginWithWrongEmail" finished-at="2022-02-27T14:51:40 SGT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithWrongEmail -->
+        <test-method signature="testLoginWithWrongPassword()[pri:0, instance:LoginSevletTest@708f5957]" started-at="2022-02-27T14:51:40 SGT" name="testLoginWithWrongPassword" finished-at="2022-02-27T14:51:40 SGT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithWrongPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:LoginSevletTest@708f5957]" started-at="2022-02-27T14:51:40 SGT" name="afterTest" finished-at="2022-02-27T14:51:40 SGT" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- LoginSevletTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
