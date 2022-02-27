@@ -8,13 +8,13 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                bat 'mvn -f HelloWorldJavaEE/pom.xml clean install'
+                bat 'mvn clean install'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
-                bat 'mvn -f HelloWorldJavaEE/pom.xml test'
+                bat 'mvn test'
             }
         }
         stage('Deploy') {
